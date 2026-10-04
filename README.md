@@ -44,4 +44,4 @@ Les tests couvrent l’extraction stricte de T0, le changement de jour, `RESET`,
 
 Le journal, la base SQLite, les messages, les identifiants de chat et les credentials ne sont pas inclus. Les exports n8n ont été nettoyés avant publication. La route de réservation marque le rappel comme consommé avant l’envoi Telegram ; un échec d’envoi n’est donc pas renvoyé automatiquement le même jour. Ce point doit être amélioré avec un accusé de livraison si l’on recherche une garantie plus forte.
 
-L’essai historique d’appel Twilio est décrit dans [docs/twilio-historical.md](docs/twilio-historical.md). Il est désactivé dans l’installation d’origine et n’est pas nécessaire à ce dépôt.
+L’essai historique d’appel Twilio et les conditions d’une éventuelle [réactivation payante](docs/twilio-historical.md) sont documentés. Le workflow vocal reste désactivé dans l’installation d’origine ; il faudrait une nouvelle intégration avec consentement, quotas et choix exclusif du canal avant de le proposer de nouveau.
